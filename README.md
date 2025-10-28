@@ -1,6 +1,8 @@
 ![](https://github.com/user-attachments/assets/95c794d3-b245-4827-ab26-2dff4bc1f728)
 
 ## Overview
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fnashysolutions%2Fui-stream%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/nashysolutions/ui-stream)
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fnashysolutions%2Fui-stream%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/nashysolutions/ui-stream)
 
 `UIStream` is a small Swift package that helps you **sequence and coordinate transient UI elements** (toasts, banners, alerts, etc.) in a clean, actor-based way.
 
