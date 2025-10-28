@@ -13,20 +13,12 @@ Each item progresses through a predictable sequence of phases:
 
 Timed items auto-complete after a rest duration, while blocker-style items wait to be explicitly unblocked before continuing.
 
-🎥 Video Demonstration
+### 🎥 Video Demonstration
 
-A short demonstration of the queuing concept is available on YouTube:
-👉 ![Watch the demo](https://youtu.be/NwNMM_SQhDY)
+A short demonstration of the queuing concept is available on YouTube:  
+[🎥 Watch the demo on YouTube](https://youtu.be/NwNMM_SQhDY)
 
-This video showcases an earlier implementation of the same lifecycle system — built with NSOperation and Combine.
-Although the internals have since been modernised to use Swift’s async/await and actors, the core behaviour remains the same:
-	•	Items are processed in strict FIFO order.
-	•	Blocker-style items suspend progress until explicitly unblocked.
-	•	Timed items animate in, rest, and animate out automatically.
-	•	Lifecycle events are emitted at each phase for UI coordination.
-
-The new actor-based design provides improved concurrency safety, simpler composition, and cleaner cancellation handling —
-while preserving the same lifecycle semantics demonstrated in the video.
+> *The video showcases an earlier implementation using `NSOperation` and Combine, but the lifecycle sequencing remains identical.* The new actor-based design provides improved concurrency safety, simpler composition, and cleaner cancellation handling — while preserving the same lifecycle semantics demonstrated in the video.
 
 ---
 
