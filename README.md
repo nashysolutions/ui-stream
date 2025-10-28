@@ -1,6 +1,4 @@
-# UIStream
-
-> Serialised UI lifecycle events for queued items, driven by an actor and published via `AsyncStream`.
+![](https://github.com/user-attachments/assets/95c794d3-b245-4827-ab26-2dff4bc1f728)
 
 ## Overview
 
