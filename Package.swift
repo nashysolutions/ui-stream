@@ -4,7 +4,13 @@ import PackageDescription
 
 let package = Package(
     name: "ui-stream",
-    platforms: [.iOS(.v17)],
+    platforms: [
+        .iOS(.v17),
+        .macOS(.v13),
+        .tvOS(.v12),
+        .visionOS(.v1),
+        .watchOS(.v6)
+    ],
     products: [
         .library(
             name: "UIStream",
