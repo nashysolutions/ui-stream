@@ -1,8 +1,8 @@
-# UIStream
-
-> Serialised UI lifecycle events for queued items, driven by an actor and published via `AsyncStream`.
+![](https://github.com/user-attachments/assets/95c794d3-b245-4827-ab26-2dff4bc1f728)
 
 ## Overview
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fnashysolutions%2Fui-stream%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/nashysolutions/ui-stream)
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fnashysolutions%2Fui-stream%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/nashysolutions/ui-stream)
 
 `UIStream` is a small Swift package that helps you **sequence and coordinate transient UI elements** (toasts, banners, alerts, etc.) in a clean, actor-based way.
 
@@ -14,6 +14,13 @@ Each item progresses through a predictable sequence of phases:
 ```
 
 Timed items auto-complete after a rest duration, while blocker-style items wait to be explicitly unblocked before continuing.
+
+### 🎥 Video Demonstration
+
+A short demonstration of the queuing concept is available on YouTube:  
+[🎥 Watch the demo on YouTube](https://youtu.be/NwNMM_SQhDY)
+
+> *The video showcases an earlier implementation using `NSOperation` and Combine, but the lifecycle sequencing remains identical.* The new actor-based design provides improved concurrency safety, simpler composition, and cleaner cancellation handling — while preserving the same lifecycle semantics demonstrated in the video.
 
 ---
 
