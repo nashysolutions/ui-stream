@@ -2,6 +2,9 @@
 
 ## Overview
 
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fasync-digital-ltd%2Fui-stream%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/async-digital-ltd/ui-stream)
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fasync-digital-ltd%2Fui-stream%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/async-digital-ltd/ui-stream)
+
 `UIStream` is a small Swift package that helps you **sequence and coordinate transient UI elements** (toasts, banners, alerts, etc.) in a clean, actor-based way.
 
 It serially processes items conforming to ``QueueMember`` and emits ``Lifecycle`` events through an `AsyncStream`.  
@@ -12,6 +15,8 @@ Each item progresses through a predictable sequence of phases:
 ```
 
 Timed items auto-complete after a rest duration, while blocker-style items wait to be explicitly unblocked before continuing.
+
+[Documentation](https://swiftpackageindex.com/async-digital-ltd/ui-stream/1.2.0/documentation/uistream)
 
 ### 🎥 Video Demonstration
 
